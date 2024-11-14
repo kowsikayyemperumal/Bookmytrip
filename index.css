@@ -1,0 +1,259 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+
+}
+body{
+    background-color: lightcyan;
+}
+.webtitle span:nth-child(1){
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    height: 70px;
+    width:fit-content;
+}
+.webtitle span:nth-child(2){
+    color: white;
+    display:flex; 
+    justify-content: center;
+    align-items: center;   
+    height: 70px;
+    width: 50px;
+    background-color: lawngreen;
+    font-family:'Times New Roman', Times, serif;
+    font-size:25px;
+    font-weight: 600;
+    margin-left: 65px;
+    margin-top: -70px;
+    border-radius: 50px 20px 50px 20px  ;
+}
+.com{
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 77px;
+    color: white;
+    font-size: 12px;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+.contact1{
+    display: flex;
+    margin-top: -34px;
+    margin-left: 35px;
+    font-size: 12px;
+}
+.contact p{
+    display: flex;
+    margin-left: 30px;
+    margin-top: -5px;
+    font-size: 15px;
+}
+.search input{
+    border-radius: 25px;
+    width: 100%;
+    border: 1px solid grey;
+}
+::-webkit-input-placeholder{
+    font-size: 13px;
+    padding-left: 10px;
+}
+ .signbtn button:nth-child(1){ 
+    background-color: darkorange;
+    border: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 5px;
+    margin: 5px;
+    width: 100px;
+}
+.signbtn button:nth-child(2){ 
+    background-color:darkorange;
+    border: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 5px;
+    margin: 5px;
+    width: 150px;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+.menu a:hover{
+    cursor: pointer;
+}
+
+.dropdown-item:hover{
+    background-color: darkgray;
+    border-radius: 5px;
+}
+.mainimage img{
+    width: 1360px;
+    height: 450px;
+    object-fit: cover;
+     z-index: 0; 
+}
+.mainimagecontent{
+    position: absolute;
+    margin-top: -300px;
+    height: fit-content;
+    width: 400px;
+    margin-left: 650px;
+    background-color: palevioletred;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 0px 0px 15px;
+}
+.mainimagecontent p:nth-child(1){
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+}
+.mainimagecontent p:nth-child(2){
+    margin-top: -15px;
+    font-size: 15px;
+}
+.topic{
+    height: 30px;
+    width: 200px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    margin-top: -120px;
+    margin-left: 130px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    border-radius: 10px 10px 0 0;
+}
+.dollar{
+    overflow-y: hidden;
+    height: 30px;
+    width: 250px;
+    padding-left: 10px;
+    color: white;
+    position: absolute;
+    margin-top: -150px;
+    margin-left: 650px;
+    background-color:palevioletred;
+    border-radius: 5px;
+}
+.dollarrate{
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.selectdate li{
+    display: inline;
+}
+.selectdate button{
+    float: right;
+    height: 30px;
+    width: 80px;
+    border: none;
+    color: white;
+    background-color:blue;
+    border-radius: 5px;
+}
+.selec input, .selectdate input{
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+
+.selec{
+    background-color: white;
+    width: 75%;
+    position: absolute;
+    border: 5px solid black;
+    margin-top: -90px;
+    column-gap: 10px;
+}
+
+.arrow span{
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 730px;
+    background-color: darkgray;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.arrow span:nth-child(2){
+    margin-left: 680px;
+}
+.imageset{
+    display:flex;
+    justify-content: space-between;
+    column-gap: 30px;
+
+}
+.imageset img{
+    height: 150px;
+    width: 350px;
+    object-fit: cover; 
+}
+.address1 p:nth-child(1){
+    font-size: 20px;
+    color: red;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.address1 p:nth-child(2){
+    margin-top: -15px;
+}
+.rent{
+    background-color: purple;
+    height: fit-content;
+    margin-top: 30px;
+    color: white;
+}
+.hotdeal hr{
+    margin-top: -10px;
+    width: 90%;
+    margin-left: 100px;
+}
+.maldivesimage img{
+    height: 200px;
+    width: 600px;
+    object-fit: cover;
+}
+.blogbanner{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background-color: white;
+}
+.aboutbanner{
+    width: 100%;
+    background-color: white;
+}
+.emailbtn button{
+    border: none;
+    background-color: lightgreen;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+}
+.icons span{
+    font-size: 25px;
+    letter-spacing: 5px;
+}
